@@ -1,0 +1,14 @@
+Dev3146-
+h2oscar
+desarrollando.oscar@gmail.com
+
+git init 
+git add .
+git commit -m "comentarios"
+git push -f <url> <rama>
+//////////////////////GITHUB//////////////////////////////////////
+git init 
+git status
+cada funcionalidad nueva hacer commit
+git add .
+

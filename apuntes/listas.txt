@@ -1,0 +1,11 @@
+LISTAS //uso como contenedores genericos de informacion
+Uno modelo estadistico es una coleccion de objetos diversos que lo resumen
+Las listas son estructuras de datos que encapsulan toda esa informacion heterogenea
+is.list(data)
+la tabla son listas de vectores de la misma longitud
+XML y JSON  son arboles de informacion y son representados mediantes listas (pueden ser listas anidadas)
+length(lista)
+$operador para extraer columnas de una tabla (operador de listas)
+lapply()/sapply()/split()
+lapply() / aplica una funcion a cada elemento de la lista o vector
+lapply(lista,funcion)

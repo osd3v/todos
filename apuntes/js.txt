@@ -1,0 +1,18 @@
+JAVASCRIPT
+lenguaje basado en prototipos
+modelo de herencia de prototipos
+Es mas sencillo constriur un modelo clasico a partir de un modelo de prototipos
+
+HERENCIA CON LA CADENA DE PROTOTIPOS
+//solapamiento de propiedades
+Dar valor a una propiedad de un objeto crear una propiedad
+HEREDADO METODOS
+una funcion puede añadirse a un objeto como una propiedad
+
+WEB COMPENENTES
+Todas las especificaciones trabajan en forma conjunta
+-----------------------------------------------------
+CUSTOM-ELEMENT:
+Sistema de templates:	<template></template>
+SHADOW-DOM: inyectar elementos
+IMPORTS-HTML

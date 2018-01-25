@@ -1,0 +1,31 @@
+LIBRERIAS
+**CARGA DE DATOS
+//Cargar los datos desde una base de datos y realizar consulta
+SQLdf
+RODBC
+RPostrgresSQL
+RSQLite
+//cargar datos desde un software externo
+foreign
+**MANIPULACION DE DATOS
+plyr agregacion de datos y aplicacion de funciones por grupos
+lubridate trabajar con fechas
+reshape2 // permite realizar transformaciones a los datos
+stringr // manejo de cadenas
+**VISUALIZACION
+ggplot //incluir capas
+rgl //graficos 3D interactivos
+**MODELIZACION
+caret // analizar calidad de datos, seleccion de caracteristivas y construccion  de modelos predictivos
+car //ANOVA tipo II y III
+randomforest //aprendizaje supervisado y no supervisado
+qcc // control estadistico, procesos bajo control
+zoo y forecast //formateo de datos y creacion de modelos para series temporales
+**PRESENTACION DE RESULTADOS
+shiny //graficos interactivos web
+knitr //informes en formato Markdown
+xtable	//
+
+
+
+

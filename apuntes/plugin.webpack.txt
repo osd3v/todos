@@ -1,0 +1,22 @@
+CONFIGURACION MAS ESPECIFICAS: https://webpack.js.org/configuration/output/
+GESTION DE SALIDAS
+asset(recurso)
+incluir manualmente los recursos al index,
+cuando la aplicion crece se tiene multiple empaquetados
+
+HtmlWebpackPlugin
+genera por defecto el index.html
+-------------------------------------------------------------------------------
+plugin:[
+new HtmlWebpackPlugin({
+title:'output management'
+})
+]
+-------------------------------------------------------------------------------
+
+Hacer una limpieza el directorio de salida
+webpack genera los archivos y los coloca en el folder dist
+es una buena practica limpiar el folder /dist antes de cada build para que se generen solo lo archivos que usamos
+clean-webpack-plugin
+
+el manifiesto puede ser obtenido con WebpackManifestPlugin

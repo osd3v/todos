@@ -1,0 +1,17 @@
+lattice
+base
+*******************GGPLOT2*************************************
+ggplot2 //install.packages("ggplot2")
++: operador contruir sofisticados graficos.
+permite iniciar un grafico simple, y luego aumentar su complejidad, visualizando el trabajo en cada paso.
+e1+e2
+e1: objecto de la clase ggplot o un theme
+e2: componente grafico y sus descripcion
+Objetos que puede ser agregados
+*aes() objeto que reemplaze la estetica por defecto
+*una capa creada por las funciones geom_ or stat_ agrega una nueva capa
+*Scale sobreescribe la escala existente
+*un theme modifica el tema actual
+*un coord sobreescribre el sistema de coordenadas actual
+*un facet sobreescribe la faceta actual
+para reemplazar el data.frame acutal, se debe usar %+% 

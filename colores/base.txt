@@ -1,0 +1,21 @@
+---color table
+create table if not exists color(colorcod integer primary key autoincrement,colorhex text not null,colornom text null);
+---palette table
+create table if not exists palette(palettecod integer primary key autoincrement,nombre text not null, organizacion text null,fechacreacion datetime not null,descripcion text null);
+---colorpalettetable
+create table if not exists colorpalette(codigo integer primary key autoincrement,
+colorcod integer not null,
+palettecod integer not null,
+foreign key(colorcod) references color(colorcod),
+foreign key(palettecod) references color(palettecod));
+
+
+
+
+#2C3E50 color1
+#18BC9C color2
+#3498DB color3
+#F39C12 color4
+#E74C3C color5
+#1D628B
+

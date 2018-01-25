@@ -1,0 +1,43 @@
+display
+block
+inline
+inline-block
+-----------------------------------------------------------
+BOX MODEL
+Cada caja esta compuesta de cuatro partes o areas
+Definidas por su borde
+content area :
+contenido real del elemento
+padding /relleno
+border
+margin
+
+*{box-sizing:border-box } // todo los elementos mismo comportamiento
+			// el padding y border no incrementan su ancho
+POSITION
+sirve para posicionar un elemento dentro de la pagina, sin embargo
+dependendiendo del valor asignado a la propiedad, el elemento tomara otro elemento como referencia
+position: static | relative | absolute | fixed | inherit | initial
+
+
+Static 
+valor por defecto , no esta posicionado sigue el flujo //regresar un elemento a su posicion en el flujo
+Relative
+posicionamos un elementos respecto al flujo normal de la pagina //top left right bottom
+Absolute
+rompe el flujo normal //no esta en el flujo normal de la pagina y no es afectado por este
+relativo  a su ancestro posicionado mas cercano // de no tener ancestros posicionados usara el elemento body
+Fixed
+se posiciona de forma relativa a la ventana del navegador
+inherit
+hereda el valor de la propiedad de sus padre
+initial
+
+sticky
+actua con position relative hasta que se alcanza un umbral de desplazamiento, con lo cual
+el elemento pasa a posicionarse con el valor fixed
+
+centrado
+position:relative
+top:50%;
+transform: translateY(-50%);

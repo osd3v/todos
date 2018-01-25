@@ -1,0 +1,22 @@
+ESTADÍSTICA CON R
+Test Student
+------------
+el diagrama de cajar permite compara graficamente o cualitativamente varias distribuciones
+este metodo permite cuantificar esa diferencia
+permite determinar si una diferencia observada es o no estaditisticamente significativamente 
+boxplot(data$Y~data$X,col="gray",main="Soy el titulo de grafico")
+t.text(data$Y~data$X)
+indicador mas importante P
+dar por estadisticamente significativo un efecto cuando P<0.05
+Regresion Lineal
+-----------------
+relacion entre una variable con otras  variables predictorias
+plot(data$X,data$Y)
+lm.Y.X<-lm(formula=data$Y~data$X) //linear models
+summary(lm.Y.X) //admite como parametro el modelo lineal
+plot(lm.Y.X,numeroGrafica)   //cre multiples graficas del modelo lineal admitido
+Regresion Logistica
+-------------------
+Modelo lineal generalizado
+trata de estimar la probabilidad de ocurrencia de un evento binario en funcion de una serie
+de variables predictorias

@@ -1,0 +1,16 @@
+Técnicas de clasificación y Reduccion de Variables
+>Analisis de cluster y algoritmos jerarquicos. Diseño e implementacion de Rattle y Rstudio
+>Arboles de decision. Diseño e implementacion de Rattle y Rstudio.
+>Analisis de componentes principales
+Metodos de Asociacion
+>Reglas de Asociacion
+>Modelos Asociativos
+Modelos Multivariados
+>Modelo lineal generalizado
+>Regresion logistica
+Metodos predictivos de aprendizaje supervisado
+>Maquinas de soporte vectorial
+>Redes neuronales
+Calibracion y seleccion de metodos
+>Validacion cruzada. Tipos de validacion cruzada
+>Curvas ROC

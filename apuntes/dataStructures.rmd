@@ -1,0 +1,8 @@
+#### DATA STRUCTURES
+Forma particular de organizar datos en un computadora para que pueda ser utilizado de manera eficiente.
+Tipos de estructura de datos son adecuados para aplicaciones y altamente especializados para tareas especificas.
+Generalmente las estructura de datos eficientes son clave para diseñar algoritmos eficientes.
+Las estructuras de datos se basan generalmente en la capacidad de un ordenador para recuperar y almacenar datos en cualquier lugar de su memoria.
+```
+The need for efficiency
+```

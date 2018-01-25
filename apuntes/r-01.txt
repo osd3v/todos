@@ -1,0 +1,52 @@
+R sistema estadístico // entorno donde se han implementado muchas tecnicas estadisticas
+
+
+eligen R fundamentalmente por sus capacidades gráficas
+manipulacion de datos, cálculo y gráficos.
+*Almacenamiento y manipulacion efectiva de datos.
+*Operadores para cálculo sobre variables indexadas(Arrays), en particular matrices.
+*Amplia, coherente e integrada coleccion de herramientas para analisis de datos
+*Posibilidades gráficas para análisis de datos
+
+>q()//salir
+>list.files("directory")
+Operador de asignacion (<-)
+Operador de asignacion en la otra direccion(->)
+funcion de asignacion (assign())
+
+sum()/length()/mean()/var()
+sort()/order()/sort.list()
+max()/min()
+Generador de sequencias regulares
+>seq(length=51,from=-5,by=2)//sequencia 
+>rep(objecto,times,each,len)//replicar objeto
+FACTORES ORDENADORES Y DESORDENADOS
+
+vector para especificar una clasificacion discreta de componentes(agrupacion).
+factor()
+tapply(vector,index,function) //aplicar una funcion a un vector en los subvectores que define otro vector mascara
+las opciones adicionales pasan a la funcion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

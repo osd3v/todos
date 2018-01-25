@@ -1,0 +1,35 @@
+SINGLE PAGE APPLICATION
+aplicacion de pagina unica es una aplicacion que cabe en una sola pagina
+con el proposito de dar una experiencia mas fluida a los usuarios como una aplicacion 
+de escritorio.
+PROTOCOLO DE DATOS DISTRIBUIDOS
+...........................................................................................
+AJAX 
+OBJECTO XMLHttpRequest
+facilita trabajar sin recargar las paginas
+WEBSOCKETS
+tecnologia de comunicacion en tiempo real entre cliente y servidor.
+Superior a AJAX en terminos de rendimiento y simplicidad.
+------------------------------------------------------------------------------------
+TRANSPORTE DE DATOS
+normalmente las peticiones a los servidiores resultan ser datos crudos XML y JSON
+Luego mediante Javascript del lado del cliennte se procesa el XML o JSON
+para hacer la traduccion de los datos crudos a HTML la cual es usada para actualizar la informacion
+del area parcial del DOM.
+
+soundcloud
+
+
+navegacion gestionada integramente en el client/ toda la logica necesaria para procesar peticiones
+sensaciones fluidez
+una sola pagina con varis vistas, en la misma se van intercambiando varias vistas
+la misma pagina genera vista inmediatas
+El servidor envia datos crudos/comunicaciones mas fluidas JSON
+PWA Progressive Web App
+interaccion con controles trackear todos los eventos/ hover drag and drop
+Estado de la aplicacion puede ser mantenido durate toda la duracion del uso de la aplicacion/Todo los datos siguen en la memoria
+Estado de la aplicacion
+
+Tradicional
+renderizado en el servidor
+cada peticion de pagina seria una peticion http / se ejecuta un postback

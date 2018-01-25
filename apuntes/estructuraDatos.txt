@@ -1,0 +1,29 @@
+R es un lenguaje de programacion orientado a objetos
+Este lenguaje esta organizado alrededor de objetos. Todo en R es un objeto
+En programacion se trabaja con estructura de datos para almacenar los datos y funciones para almacenar procesos.
+Una estructura de datos es una interface para organizar la memoria de la computadora.
+R no provee acceso directo a la memoria de la computadora pero provee un gran numero de estructura de datos para 
+referencia los objetos.
+Cada estructura de datos esta diseñada para optimizar los aspectos de almacenamiento, acceso y procesamiento.
+Estructura de datos principales
+*Atomic Vector
+*List
+*Matrix
+*Data frame
+*Array
+
+la funcion typeof() retorna el tipo de objeto 
+packages
+
+stats / ggplot2 / lattice / dplyr
+
+
+SHINY
+permite crear cuadros de mando interactivos.
+RMARKDOWN
+documentos automatizados que combinan texto con codigo, tablas y graficos.
+**************CIENCIA DE LOS DATOS***********************************************
+sirven para resolver problemas de clasificacion (predecir una variable discreta)
+como de regresio (predecir una variable continua).
+Arboles de decision 
+package / library(party)

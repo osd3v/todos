@@ -1,0 +1,71 @@
+Aplica transformaciones a codigo escrito en js.
+sirve para dar soporte
+bastante modularizado
+babel-cli
+Es posible crear presets personalizados
+
+BABEL-CORE
+API para utilizar Babel de forma programatica
+BABEL-REGISTER
+sobreescribre la funciones require() de Node.js 
+y realiza las transformaciones de dependencias
+sobre la marcha
+require('babel-register')
+Todos los archivos requeridos por Node.js a partir de
+esta linea con extension .es6 .es .jsx y .js
+seran transformados por babel.
+
+............................................................
+BABEL CLI
+guardar con dependencia de desarrollo
+>_ babel example.js --out-file compiled.js
+Para compilar una carpeta(--out-dir)
+--out-file(-o)
+--out-dir(-d)
+Automatizar el trabajo con scripts
+{
+"scripts":{
+"build":"babel ./src -d ./lib -w"
+	  }
+	   ...
+}
+npm run build
+(-w)  permite mantener observando los cambios
+............................................................
+BABEL-REGISTER / no recomendado para produccion
+Se debe compilar el codigo antes de implementarlo
+............................................................
+BABEL-NODE /No recomendado para produccion
+forma mas facil para integrar babel
+reemplazo de babel-cli
+............................................................
+CONFIGURANDO BABEL
+.babelrc
+{
+"presets":["es2015],
+"plugins":[]
+}
+
+transpilar ES6 a ES5 / npm install babel-preset-es2015 --save-dec
+............................................................
+BABEL-PRESET / babel-preset-react
+este preset incluye los siguientes plugins/presets
+preset-flow
+syntax-jsx
+transform-react-jsx
+transform-react-display-name
+............................................................
+BABEL-LOADER
+este paquete permite transpilar codigo usando babel y webpack
+............................................................
+JSX
+se puede embeber codigo js en jsx contenido en {}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+Base function
+split()
+subset()
+apply()
+sapply()
+lapply()
+tapply()
+aggregate()
+
+downloader libraries

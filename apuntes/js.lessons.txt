@@ -1,0 +1,5 @@
+//arrays
+push // agregar un elemento al ultimo
+pop //saca un elemento del ultimo
+shift //saca un elemento del inicio
+unshift // agregar un elemento al inicio

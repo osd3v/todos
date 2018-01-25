@@ -1,0 +1,35 @@
+LOADERS: https://webpack.js.org/loaders/
+
+
+webpack utiliza expresiones regulares para determinar loader utilizar en los documentos.
+***************************************************************************************
+LOADING CSS
+---------------------------------------------------------------------------------------
+module:{
+rules:[
+{test:/\.css$/,user:['style-loader','css-laoder']}
+      ]
+       }
+---------------------------------------------------------------------------------------
+
+dependencias de desarrollo (--save-dev)
+style-loader
+css-loader
+
+***************************************************************************************
+FILE-LOADER
+podemos incorporar archivos en el sistema
+import myimage from './image.png'
+url('./myimage.png')
+<img src="myimage.png"/>
+esa imagen sera procesaday agregada a la carpeta de salida
+---------------------------------------------------------------------------------------
+module:
+{
+    rules:[{test:/\.(png|svg|jpg|gif)$/,use:['file-loader']}]
+}
+---------------------------------------------------------------------------------------
+module:{
+	rules:[{test:/\.(woff|woff2|eot|ttf|otf)$/,use:['file-loader']}]
+	}
+---------------------------------------------------------------------------------------

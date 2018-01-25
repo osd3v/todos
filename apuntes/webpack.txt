@@ -1,0 +1,45 @@
+EMPAQUETADOR DE CODIGO
+
+core concepts
+
+---------------------------------------------------------------------------------------
+const path=require('path');
+module.exports={
+
+entry : './file.js',
+output:{
+	path:path.resolve(__dirname,'dist');
+	filename:'file.bundle.js'
+	},
+module:{
+	rules:[test:/\.txt$/,use:'raw-loader']
+	}
+};
+------------------------------------------------------------------------------------------
+entry
+indica el inicio para la construccion
+se puede configurar uno o varios entry point
+------------------------------------------------------------------------------------------
+output
+indica donde enviar los empaquetados
+------------------------------------------------------------------------------------------
+loaders
+habilita a wbepack para procesar mas que solo js
+transforma todos los tipos de archivos en modulos que puede ser incluidos en la grafica 
+de dependecias de la aplicacion
+Dos propositos
+identifica los archivos que va a ser transformados
+transforma estos archivos para que sean incluidos en su paquete o  en la grafica de 
+dependecias de la aplicacion
+
+cuando encuentra archivo .txt en require()/import declaracion y usa el cargador X
+para transformarlo antes de añadirlo a los empaquetados.
+
+------------------------------------------------------------------------------------------
+plugins
+
+
+
+
+
+------------------------------------------------------------------------------------------

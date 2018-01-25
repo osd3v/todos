@@ -1,0 +1,92 @@
+webpack-dev-server
+Server
+El servidor emite informacion acerca del estado de la compilacion hacia el cliente,
+reacciona a eventos.
+Se puede entre dos diferentes modos, dependiendo de las necesidades.
+
+BABEL
+Permite transpilar a javascript de mas bajo nivel.
+Babel funciona mediante plugins para indicarle las transformaciones de codigo.
+npm i -D babel-core babel-cli
+babel script.js -out-file script.compiled.js
+Se debe utilizar las configuraciones 
+Configurando en JSON Babel (.babelrc)
+Transformar codigo ECMAScript6 a ECMAScript5
+Para eso existen muchos plugins, uno por cada caracteristica nueva, y para no bajar
+uno por uno existen los presets.
+Preset / conjunto de plugins
+npm i -D babel-preset-es2015
+{
+"presets":["es2015"]
+}
+//No se necesita agregar babel-preset- al nombre del preset porque babel
+asume por defecto este prefijo
+
+SOPORTE JSX
+npm i -D babel-preset-react
+
+{
+"preset":["react","es2015"]
+}
+preset ES2015/ES2016/ES2017 latest	
+Funciones experimentales
+stage-3
+stage-2
+stage-1
+stage-0 //soporta todas la caracteristicas
+
+MEJORAR DE RENDIMIENTO EN PRODUCCION
+plugin para mejora de rendimiento, minificacion.
+
+Mejores de minificacion
+transform-minify-booleans
+transform-remove-console
+transform-remove-debugger
+transform-simplify-comparison-operators
+transform-member-expresion-literals
+transform-merge-sibling-variables
+transform-property-literals
+MEJORAS DE RENDIMIENTO CON REACT
+transform-react-constant-elements
+transform-react-inline-elements
+configuracion
+{
+"presets":["latest","react","stage-0"],
+"plugins":["transform-runtime"],
+"env":{
+	"production":{
+			"plugins":["transform-react-constant-elements"]
+		     }
+
+       }
+}
+permite hacer configuraciones dependiendo del entorno
+por defecto babel utiliza el entorno development
+asi podemos definir preset y plugins
+solo para desarrollo
+produccion
+test o cualquier otro entonrno
+BABEL JUNTO A WEBPACK
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+CONFIGURACION AVANZADA: https://webpack.github.io/docs/configuration.html
+SOURCE MAPS
+permite identificar el archivo donde se hallo un error
+inline-source-map /para propositos ilustrativos
+
+devtool:'inline-source-map'
+
+
+propositos de produccion: cheap-module-source-map

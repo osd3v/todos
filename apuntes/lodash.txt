@@ -1,0 +1,7 @@
+LODASH
+libreria utilitaria que entrega modularidad y rendimiento
+
+procesamiento de datos
+mover arreglos
+seleccionar campos
+filtrar por condiciones
