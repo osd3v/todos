@@ -1,0 +1,16 @@
+perfiles de usuario
+Resultado base para el resto de actividades de usabilidad
+Existen tecnicas
+Tecnica "personas" (ambio HCI y DCU)
+
+Podemos enternder el perfil de usuario de un sistema interactivo como una
+descripcion detallada de los atributos de los usuarios
+Trabajo/empleo
+Eduacion
+Tareas
+Habilidades
+Edad...
+
+Estas caracteristicas suelen reflejarse en un rango de valores
+
+PASOS PARA CREAR UN PERFIL DE USUARIO

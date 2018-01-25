@@ -1,0 +1,77 @@
+VUE
+framework progresivo
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.2/vue.min.js"></script>
+Archivo de tipo vue (Gestionarlo y empaquetarlo)
+vue-router ---> manejar el routing del cliente
+vuex ---> Manejar el estado de la aplicacion al estilo Redux/Flux e incluso server-rendering
+utilizando librerias como Nuxt.js
+CICLO DE VIDA
+metodos de ciclo de vida de los componentes (Manejo del comportamiento dependiendo del momento)
+--------------------------------------------------------------------------------------------------
+------------------------------------FICHERO .vue---------------------------------------------------
+<template>
+<!---Aqui va el HTML, ademas se puede utilizar sintaxis Pug/jade---->
+</template>
+<script>
+<!--------Aqui el codigo Javascript, (Se puede utilizar Babe, TypeScript)--->
+</script>
+<style>
+<!----Aqui va los estilos, css,stylus, sass, less--------------->
+</style>
+--------------------------------------------------------------------------------------------------
+El loader de webpack (vue-loader) se encarga de extraer cada parte a su correspondiente
+formato y fichero para produccion, permitiendo tener los ficheros separados por componentes.
+--------------------------------------------------------------------------------------------------
+
+Directivas de Angular
+Las directivas extienden de html
+
+Vue-Router
+Utiliza un objeto para configurar las rutas de la aplicacion
+----------------------------------------VUE CLI---------------------------------------------------
+#instalar de forma global VUE-CLI 
+#npm install --global vue-cli
+#Genera un proyecto con webpack configurado y listo para codear
+#vue init webpack
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

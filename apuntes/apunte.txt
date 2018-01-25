@@ -1,0 +1,11 @@
+Componentes Vue.js
+this.tareas.push({nombre:tarea});
+            this.nuevaTarea='';
+
+Eliminar ultimo elemento
+array.pop();
+eliminar el primero
+array.shift();
+eliminar uno del indice deseado
+array.splice();
+array.indexOf();

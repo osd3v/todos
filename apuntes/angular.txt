@@ -1,0 +1,28 @@
+SPA
+aplicacion aislada de backend
+headless
+enfoque, solo se recargar la region
+RESTful API
+mecanismo para interacturar con multiples fuentes de datos
+Cuando son varias fuentes de datos
+
+NODE JS 
+VS CODE
+ANGULAR
+TYPESCRIPT
+GIT
+
+
+View Encapsulation
+Estilos propios de un componente
+Shadow DOM
+Data Bindig
+SERVICIOS
+observables
+Obtencion de datos via HTTP
+-----------------------------------------------------------------------------------------------
+FRAMEWORKS
+ANGULAR
+IONIC
+TYPESCRIPT
+Arquitecto de Software

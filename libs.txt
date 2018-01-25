@@ -1,0 +1,6 @@
+cheerio
+konva
+lodash
+osmosis
+p5
+quicksettings

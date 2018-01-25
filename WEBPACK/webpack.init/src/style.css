@@ -1,0 +1,11 @@
+
+#header
+{
+    /* color: steelblue; */
+    color: steelblue;
+    border: 2px solid grey;
+    font-size: 20px;
+    height: 100px;
+    font-family:Dosis;
+    background: url(https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png);
+}

@@ -1,0 +1,23 @@
+ACTIVO:
+usuario puede acceder en cualquier momento
+DESACTIVADO
+usuario no puede logearse
+usuario se mantiene en mantenimiento
+un usuario admin puede reactivar esta cuenta
+solo un admin puede desactivar una cuenta
+
+
+create type USERSTATUS as ENUM('ACTIVO','DESACTIVADO','PENDIENTEACTIVACION','BLOQUEADO');
+create type USERTYPE as ENUM('ADMIN','VIZUALIZADOR','USUARIO');
+
+Create table USERTBL
+(
+usid int primary key,
+nam text not null,
+lnam	text not null,
+mail	text not null,
+pwd	text not null,
+sts	USERSTATUS,
+typ	USERTYPE,
+created time
+);
